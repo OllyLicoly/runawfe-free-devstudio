@@ -1,0 +1,25 @@
+<config>
+  <input>
+    <param name="source"
+           formatFilter="ru.runa.wfe.var.FileVariable"
+           label.key="Param.InputFile"
+           required="true"/>
+
+    <param name="storageTableName"
+           label.key="ExcelToStorage.storageTableName"
+           variable="false"
+           required="true"/>
+
+    <param name="sheetIndex"
+           formatFilter="java.lang.Integer"
+           label.key="ExcelToStorage.sheetIndex"
+           variable="false"
+           optional="true"/>
+
+    <param name="sheetName"
+           formatFilter="java.lang.String"
+           label.key="ExcelToStorage.sheetName"
+           variable="false"
+           optional="true"/>
+  </input>
+</config>
